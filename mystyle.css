@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#f2f2f2;
+	background-color: #333333;
+	 background-image: url("images/book/Plan de travail 1.png");
+	
+	background-position: center;
+	font-family: 'Aref Ruqaa Ink', serif;
+	max-width:1400;
+	margin:auto;
+}
+table {
+	border:solid;
+	
+	background-color: rgba(164,219,255,0.90);
+	background-color:  rgba(51,51,51,0.95);
+	width: 100%;
+	position: sticky;
+	top: 0;
+	padding: 10px;
+	margin-bottom:10px;
+}
+th {
+	text-align: right;
+}
+.titles {
+	color:#999999;
+	text-decoration:none;
+	font-size:30px; 
+	border-bottom-style: solid; 
+	border-color: rgba(0,0,0,0);
+}
+img.affiche {
+	margin-left : 50px; 
+	margin-bottom: 20px; 
+	margin-top: 50px;
+}
+img.affiche2 {
+
+	float :right; 
+	margin-right: 50px;
+}
+.blocRight {
+	float :right;
+	width : 35%;
+}
+a.feedback {
+	color:black;
+	text-decoration:none;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: right;
+}
+.artName {
+	text-align:center;
+	border-bottom-style: solid; 
+	border-color:#5D81A3; 
+	border-bottom-width: 3px; 
+	margin-bottom : 0px; 
+	margin-top: 50px;
+}
+.artName2 {
+	font-size: 50px;
+	text-align:center;
+	color:rgba(0,0,0,0);
+	border-bottom-style: dashed;
+	border-color:#5D81A3;
+	border-bottom-width: 3px;
+	margin-bottom : 50px;
+	margin-top: 0px;
+}
+.vm1 {
+	background-color: rgba(255, 255, 255, 0);
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	padding-bottom: 20px;
+	color:black;
+	text-decoration:none;
+	
+}
+
+
+@media only screen and (min-width: 0px) {
+  .affiche{
+	width: 400px;
+    height: 270px;
+  }
+  .affiche2{
+	width: 400px;
+    height: 270px;
+  }
+	.artName{
+		font-size: 40px;
+	}
+	.artName2{
+		font-size: 40px;
+	}
+	.vm1{
+		font-size: 30px;
+		margin-left: 50px;
+	}
+	.Titres{
+		font-size: 25px;
+	}
+	.Texte{
+		font-size: 10px
+	}
+}
+@media only screen and (min-width: 800px) {
+  .affiche{
+	width: 450px;
+    height: 300px;
+  }
+  .affiche2{
+	width: 450px;
+    height: 300px;
+  }
+	.artName{
+		font-size: 40px;
+	}
+	.artName2{
+		font-size: 40px;
+	}
+	.vm1{
+		font-size: 30px;
+		margin-left: 50px;
+	}
+	.Titres{
+		font-size: 30px;
+	}
+	.Texte{
+		font-size: 11px
+	}
+	.fppter{
+		border-top-style:solid; 
+		border-top-color:blue;
+		height: 200px; 
+		background-color: rgba(51,51,51,0.80);
+	}
+}
+@media only screen and (min-width: 1000px) {
+    .affiche{
+	width: 550px;
+    height: 370px;
+  }
+    .affiche2{
+	width: 550px;
+    height: 370px;
+  }
+	.artName{
+		font-size: 50px;
+	}
+	.artName2{
+		font-size: 50px;
+	}
+	.vm1{
+		font-size: 40px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 30px;
+	}
+	.Texte{
+		font-size: 15px
+	}
+	.fppter {
+		width: 1000px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+    .affiche{
+	width: 650px;
+    height: 420px;
+  }
+    .affiche2{
+	width: 650px;
+    height: 420px;
+  }
+	.artName{
+		font-size: 60px;
+	}
+	.artName2{
+		font-size: 60px;
+	}
+	.vm1{
+		font-size: 50px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 35px;
+	}
+	.Texte{
+		font-size: 16px
+	}
+	.fppter {
+		width: 1200px;
+	}
+}
+@media only screen and (min-width: 1300px) {
+    .affiche{
+	width: 720px;
+    height: 450px;
+  }
+    .affiche2{
+	width: 720px;
+    height: 450px;
+  }
+	.artName{
+		font-size: 70px;
+	}
+	.artName2{
+		font-size: 70px;
+	}
+	.vm1{
+		font-size: 60px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 40px;
+	}
+	.Texte{
+		font-size: 17px
+	}
+	.fppter {
+		width: 1300px;
+	}
+}
+@media only screen and (min-width: 1500px) {
+    .affiche{
+	width: 800px;
+    height: 500px;
+  }
+    .affiche2{
+	width: 800px;
+    height: 500px;
+  }
+	.artName{
+		font-size: 80px;
+	}
+	.artName2{
+		font-size: 80px;
+	}
+	.vm1{
+		font-size: 70px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 45px;
+	}
+	.Texte{
+		font-size: 20px
+	}
+	.fppter {
+		width: 1500px;
+	}
+}
+@media only screen and (min-width: 1700px) {
+    .affiche{
+	width: 900px;
+    height: 550px;
+  }
+    .affiche2{
+	width: 900px;
+    height: 550px;
+  }
+	.artName{
+		font-size: 90px;
+	}
+	.artName2{
+		font-size: 90px;
+	}
+	.vm1{
+		font-size: 80px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 50px;
+	}
+	.Texte{
+		font-size: 22px
+	}
+	.fppter {
+		width: 1700px;
+	}
+}
+@media only screen and (min-width: 1900px) {
+    .affiche{
+	width: 1000px;
+    height: 600px;
+  }
+    .affiche2{
+	width: 1000px;
+    height: 600px;
+  }
+	.artName{
+		font-size: 100px;
+	}
+	.artName2{
+		font-size: 100px;
+	}
+	.vm1{
+		font-size: 90px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 55px;
+	}
+	.Texte{
+		font-size: 24px
+	}
+	.fppter {
+		width: 1900px;
+	}
+}
+@media only screen and (min-width: 2000px) {
+    .affiche{
+	width: 1200px;
+    height: 700px;
+  }
+    .affiche2{
+	width: 1200px;
+    height: 700px;
+  }
+	.artName{
+		font-size: 110px;
+	}
+	.artName2{
+		font-size: 110px;
+	}
+	.vm1{
+		font-size: 100px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 60px;
+	}
+	.Texte{
+		font-size: 27px
+	}
+	.fppter {
+		width: 2000px;
+	}
+}
+@media only screen and (min-width: 2200px) {
+    .affiche{
+	width: 1400px;
+    height: 800px;
+  }
+    .affiche2{
+	width: 1400px;
+    height: 800px;
+  }
+	.artName{
+		font-size: 120px;
+	}
+	.artName2{
+		font-size: 120px;
+	}
+	.vm1{
+		font-size: 110px;
+		margin-left: 150px;
+	}
+	.Titres{
+		font-size: 60px;
+	}
+	.Texte{
+		font-size: 27px
+	}
+	.fppter {
+		width: 2200px;
+	}
+
+}
